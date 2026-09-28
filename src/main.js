@@ -25,7 +25,7 @@ document.querySelector('#app').innerHTML = `
         <div class="hero-note"><span class="note-line"></span><span>Currently based in Tacurong City<br />Available for remote work</span></div>
       </div>
       <div class="hero-visual reveal">
-        <div class="portrait-frame"><img src="/Profile.jpg" alt="Mae Antoinette Libag in a black blazer" /><div class="portrait-label">MAE<br />ANTOINETTE<br /><span>LIBAG</span></div></div>
+        <div class="portrait-frame"><img src="/profile.jpg" alt="Mae Antoinette Libag in a black blazer" /><div class="portrait-label">MAE<br />ANTOINETTE<br /><span>LIBAG</span></div></div>
         <div class="orbit-word">ORGANIZED · PRESENT · READY ·</div>
         <div class="visual-stamp"><span>✦</span><strong>Let's make<br />space for<br /><i>growth.</i></strong></div>
       </div>
