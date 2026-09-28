@@ -1,6 +1,7 @@
 import './style.css'
 
 const email = 'maeantoinetteelevazolibag08@gmail.com'
+const emailLink = `mailto:${email}?subject=${encodeURIComponent('Virtual Assistant Inquiry')}&body=${encodeURIComponent('Hi Mae,\n\nI would like to learn more about your virtual assistant services.\n\nHere is a little about what I need:\n\nThank you!')}`
 
 document.querySelector('#app').innerHTML = `
   <header class="site-header">
@@ -54,7 +55,7 @@ document.querySelector('#app').innerHTML = `
       <div class="toolkit-content reveal"><h2>Ready for the<br /><em>everyday details.</em></h2><p>The tools may be simple. The difference is in how intentionally they’re used.</p><div class="tool-tags"><span>Gmail</span><span>Google Calendar</span><span>Google Docs</span><span>Google Sheets</span><span>Google Drive</span><span>Canva</span></div></div>
     </section>
 
-    <section id="contact" class="contact section-pad"><div class="contact-inner reveal"><p class="eyebrow"><span></span> Have something in mind?</p><h2>Let’s make<br /><em>it happen.</em></h2><p class="contact-copy">Tell me a little about what you’re building, and let’s find the support that fits.</p><a class="button button-light" href="mailto:${email}">Send me an email <span>↗</span></a><div class="contact-details"><a href="mailto:${email}">${email}</a><span>Tacurong City, Sultan Kudarat</span><a href="https://www.linkedin.com/in/mae-antoinette-elevazo-libag" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div><div class="contact-curve" aria-hidden="true">MAE · MAE · MAE ·</div></section>
+    <section id="contact" class="contact section-pad"><div class="contact-inner reveal"><p class="eyebrow"><span></span> Have something in mind?</p><h2>Let’s make<br /><em>it happen.</em></h2><p class="contact-copy">Tell me a little about what you’re building, and let’s find the support that fits.</p><a class="button button-light" href="${emailLink}">Send me an email <span>↗</span></a><div class="contact-details"><a href="${emailLink}">${email}</a><span>Tacurong City, Sultan Kudarat</span><a href="https://www.linkedin.com/in/mae-antoinette-elevazo-libag" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div><div class="contact-curve" aria-hidden="true">MAE · MAE · MAE ·</div></section>
   </main>
 
   <footer class="site-footer"><span>© <span id="year"></span> Mae Antoinette Libag</span><span>Virtual Assistant · Social Media Support</span><a href="#top">Back to top ↑</a></footer>
